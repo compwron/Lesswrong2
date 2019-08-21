@@ -204,7 +204,7 @@ addFieldsDict(Users, {
 
   // This field-name is no longer accurate, but is here because we used to have that field
   // around and then removed `markDownCommentEditor` and merged it into this field.
-  markDownPostEditor: {
+  markDownPostEditor: { // linda
     order: 70,
     type: Boolean,
     optional: true,
@@ -212,7 +212,7 @@ addFieldsDict(Users, {
     canRead: ['guests'],
     canUpdate: [Users.owns, 'sunshineRegiment', 'admins'],
     canCreate: ['members'],
-    control: 'checkbox',
+    control: 'textasdasdaadadadadadasadsa',
     label: "Activate Markdown Editor"
   },
 
